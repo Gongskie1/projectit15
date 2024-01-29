@@ -1,0 +1,26 @@
+GET http://localhost:8080/list_user
+
+
+###
+
+POST http://localhost:8080/createUser
+Content-Type: application/json
+
+{
+    "username": "username",
+    "password": "taray",
+    "email": "markjosephapaontiempo@gmail.com"
+}
+###
+
+DELETE http://localhost:8080/delete_all_user
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username":"mark",
+    "password":"joseph"
+}
